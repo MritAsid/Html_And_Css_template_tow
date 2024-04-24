@@ -580,17 +580,19 @@ table tbody td {
 /* <!-- start نقاط البيع --> */
 
 footer {
-  background-color: var(--main-color);
 }
 footer p {
+  background-color: var(--main-color);
   padding: 10px;
   text-align: center;
   color: var(--bgd-color);
-  font-size: 16px;
+  font-size: 10px;
 }
 footer p a {
-  color: var(--bgd-color);
-  margin-top: 10px;
-  line-height: 2;
+  color: var(--main-color);
+  background-color: var(--bgd-color);
   text-decoration: none;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 10px;
 }
