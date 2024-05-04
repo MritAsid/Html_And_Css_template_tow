@@ -390,7 +390,9 @@ header .links ul li:not(:last-child) a {
     margin: 15px 0;
     margin: 15px 0;
   }
-
+  select:focus {
+    outline: none;
+  }
  .login .password{
   display:  none;
 }    
@@ -417,6 +419,9 @@ header .links ul li:not(:last-child) a {
   text-align: center;
   background-color:var(--bgd-color);
    
+}
+.login label  .int:focus {
+  outline: none;
 }
 .login .alert {
   background-color: var(--bgd-color);
