@@ -1,0 +1,327 @@
+/* start verabal */
+:root {
+  --main-color: #19C8fa;
+  --section-padding: 10px;
+  --red-color: #F44336;
+  --bgd-color: white;
+}
+/* end verabal */
+/* start glolad rules  */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style: none;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ /* Smolans */
+ @media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+ 
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.main-heading {
+  text-align: center;
+}
+.main-heading h2 {
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 70px;
+  padding: var(--section-padding);
+  color: var(--main-color);
+}
+.main-heading h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color:black;
+  bottom: -30px;
+  width: 150px;
+}
+.main-heading h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid black;
+  bottom: -38px;
+  background-color: var(--bgd-color);
+}
+.color{
+  background-color: #eff2f6;
+  padding-top: 20px;
+  border-bottom: 2px solid var(--main-color);
+  border-top: 2px solid var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+/* end glolad rules  */
+
+header {
+  background-image: url("../images/login.jpg");
+   min-height: 300px;
+   background-size: cover;
+   position: relative;
+ }
+ 
+ header .overlay {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(0 0 0 / 75%);
+ }
+ 
+ header .containert {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid var(--main-color);
+   width: 80%;
+   border-radius: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ 
+ }
+ 
+ header .head {
+   color: var(--main-color);
+   padding: var(--section-padding);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 20px 0 var(--section-padding);
+   width: 90%;
+ }
+ .head i {
+   font-size: 30px;
+ }
+ .head h3 {
+       font-size: 30px;
+     margin: 0 var(--section-padding);
+ }
+ 
+ header h2 {
+   color: var(--main-color);
+   padding: var(--section-padding) 0 20px;
+   margin: var(--section-padding) 0 0 0 ;
+   text-align: center;
+   width: 90%;
+   font-size: 30px;
+   position: relative;
+ }
+ header h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--bgd-color);
+  bottom: -23%;
+  background-color: var(--main-color);
+}
+
+@media (max-width:767px) {
+  header .head {
+   width: 90%;
+  }
+  .head i,
+  .head h3 {
+    font-size: 20px;
+}
+header h2 {
+  font-size: 20px;
+}
+}
+               /* end header  */
+
+
+            /* <!-- start data usr --> */
+.datausr {
+  padding-top: 50px;
+}
+  .img {
+    background-color: var(--bgd-color);
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--main-color);
+}
+.img img {
+  border: 3px solid var(--main-color);
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 90%;
+  margin-top: 30px;
+}
+ 
+  .img .main-heading h2 {
+    font-weight: normal;
+    font-size: 14px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    border: 2px solid #eff2f6;
+    color: var(--bgd-color);
+    margin-bottom: 30px;
+
+  }
+  .datausr .h2h {
+    background-color: white;
+  }
+  .datausr .color .prone {
+    background-color: var(--bgd-color);
+    width: 80%;
+    border: 1px solid var(--main-color);
+    border-radius: var(--section-padding);
+    padding: var(--section-padding) 5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: var(--section-padding) 0 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: var(--section-padding) 0 ;
+    text-align: center;
+    background-color: var(--bgd-color);
+    font-size: 14px;
+    border: 2px solid var(--main-color);
+  
+  }
+  table tbody td {
+    border: 1px solid var(--main-color);
+    padding: var(--section-padding) 5px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  table tbody  tr td:not(:last-child) {
+    color: var(--red-color);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  form {
+    width: 100%;
+    text-align: center;
+  }
+  .color .sud{
+    padding: var(--section-padding);
+    width: 40%;
+    border: 2px solid var(--bgd-color);
+    background-color: var(--main-color);
+    border-radius: var(--section-padding);
+    color: var(--bgd-color);
+    cursor: pointer;
+    margin: 20px 0 0;
+  }
+  .two {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding: 20px 0 0;
+   }
+   .three {
+    border-top: none;
+    padding-top: 0;
+    padding: 0 0 10px;
+
+   }
+  .info {
+    background-color: var(--bgd-color);
+    padding: var(--section-padding) 0;
+    border-radius: var(--section-padding);
+    border: 1px solid var(--main-color);
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0 0;
+  }
+  .info a {
+    color: var(--red-color);
+     
+      text-decoration: none;
+  }
+ 
+  @media (max-width: 767px) {
+    .datausr .color .prone {
+      width: 90%;
+    }
+    table {
+      width: 90%;
+    }
+    .color .sud {
+      padding: 5px;
+      width: 60%;
+  }
+  .info {
+    width: 80%;
+  }
+  }
+  footer{
+    background-color: var(--main-color);
+  }
+  footer p {
+    background-color: var(--main-color);
+    padding: 10px;
+    text-align: center;
+    color: var(--bgd-color);
+    font-size: 10px;
+  }
+  footer p a {
+    color: var(--main-color);
+    background-color: var(--bgd-color);
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
