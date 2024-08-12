@@ -467,6 +467,13 @@ header .links ul li:not(:last-child) a {
   border-top: 2px groove var(--main-color);
   border-bottom: 2px groove var(--main-color);
 }
+
+.login .sud:hover {
+  box-shadow: none;
+  background-color: white;
+  border-radius: 10px;
+  
+}
 @media(max-width:767px){
   .login .h5 {
     width: 90%;
