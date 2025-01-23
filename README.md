@@ -1,2 +1,2 @@
 # wi fi login interface
-![HOME](images/images.png)
+![HOME](images/login.png)
