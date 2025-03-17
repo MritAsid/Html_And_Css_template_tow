@@ -14,7 +14,7 @@
 - [مشروعي الثاني](https://github.com/MritAsid/project2): وصف قصير للمشروع.
 
 ## كيفية الاتصال بي:
-- [LinkedIn](https://www.linkedin.com/in/username)
+- [LinkedIn](https://www.linkedin.com/in/‏Esmael Asid‏)
 - [Twitter](https://twitter.com/username)
 - [موقعي الشخصي](https://www.username.com)
 
